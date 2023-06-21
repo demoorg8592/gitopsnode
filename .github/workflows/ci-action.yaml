@@ -71,8 +71,8 @@ jobs:
           context: ./
           # Note: tags has to be all lower-case
           tags: |
-            demoorg8592/gitopsnode:${{ github.sha }} 
-            ghcr.io/demoorg8592/gitopsnode:${{ github.sha }}
+            keshriraja/gitopsnode:${{ github.sha }} 
+            ghcr.io/keshriraja/gitopsnode:${{ github.sha }}
           # build on feature branches, push only on main branch
           push: ${{ github.ref == 'refs/heads/main' }}
 
