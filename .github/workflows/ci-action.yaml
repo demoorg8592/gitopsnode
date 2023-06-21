@@ -85,7 +85,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: demoorg8592/gitopsnode
+          repository: demoorg8592/gitops01
           ref: 'main'
           token: ${{ secrets.G_TOKEN }}
       - name: setup git config
