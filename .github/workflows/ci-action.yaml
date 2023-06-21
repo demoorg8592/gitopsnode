@@ -93,7 +93,7 @@ jobs:
           git config --global user.email "keshriraja@gmail.com"
           git config --global user.name "raja1985"
           echo ${{ github.sha }}
-          sed -i "keshriraja/gitopsnode:${{ github.sha }}" deployment.yaml
+          sed -i "s/keshriraja/gitopsnode:${{ github.sha }}/g" deployment.yaml
           git add -A
           git commit -am "Update image for - ${{ github.sha }}"
       - run: echo ${{ github }}
