@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className='App-logo' alt='logo' />
         <div style={{ fontSize: 30 }}>
           Version{' '}
-          <span style={{ color: 'red' }}>GitOps Demo!!!</span>
+          <span style={{ color: 'red' }}>GitOps DEMO!!!</span>
         </div>
       </header>
     </div>
